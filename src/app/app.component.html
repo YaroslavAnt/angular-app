@@ -16,7 +16,7 @@
     </ul>
   </div>
 
-  <div class="info">
+  <div *ngIf='selectedClient'>
     <client-detail [selectedClient]="selectedClient"></client-detail>
   </div>
   
