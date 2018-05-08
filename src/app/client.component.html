@@ -1,0 +1,21 @@
+<div class="wrapper">
+
+    <img src="{{selectedClient.general.avatar}}" alt="">
+    <div class="container">
+        <h1>{{selectedClient.general.firstName}} {{selectedClient.general.lastName}} </h1>
+
+        <h2>Job:</h2>
+        <p>{{selectedClient.job.title}} at: <br> <span>{{selectedClient.job.company}} </span> </p>
+
+        <h3>Contact:</h3>
+        <p><span>e-mail: </span> {{selectedClient.contact.email}} </p>
+        <p><span>phone: </span> {{selectedClient.contact.phone}} </p>
+
+        <h3>Adress:</h3>
+        <p><span>street: </span> {{selectedClient.address.street}} </p>
+        <p><span>city: </span> {{selectedClient.address.city}} </p>
+        <p><span>zipCode: </span> {{selectedClient.address.zipCode}} </p>
+        <p><span>country: </span> {{selectedClient.address.country}} </p>
+    </div>
+
+</div>
