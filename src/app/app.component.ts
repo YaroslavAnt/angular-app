@@ -16,7 +16,7 @@ export class AppComponent {
   selectedClient;
   searchStr=''
 
-  constructor(private clientService: ClientService){}
+  constructor(){}
 
   onSelect(client): void{
     this.selectedClient=client;
